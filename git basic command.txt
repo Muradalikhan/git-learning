@@ -2,6 +2,7 @@
 git add .
 git commit -m 'your comment'
 git push origin branchname
+git push -u origin <branch> => for new branch first time use this command
 git status
 git pull
 git push

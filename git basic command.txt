@@ -1,0 +1,59 @@
+
+git add .
+git commit -m 'your comment'
+git push origin branchname
+git status
+git pull
+git push
+
+
+for checking user detail
+git config user.name
+git config user.email
+git config user.username
+
+git reset => file ko unstage krny k liye
+git reset --hard => file ko unstaged krny k liye or changes discrad krny k kiye 
+
+git branch => show list of branches
+git branch -v => show list of branches with some details
+git branch myBranch => create new branch with name myBranch
+git checkout myBranch => switch to myBranch
+git checkout -b <branch name> => to create branch and switch branch simultaneously
+
+Creating a Branch from Another Branch
+git checkout -b feature4 develop =>This example shows creating the feature4 branch from the develop branch.
+
+Merging Branches in a Local Repository
+git checkout main
+git merge branchName
+
+Must read
+Git FAQs
+What is creating a branch in Git?
+Creating a branch takes a snapshot of the existing code so you can work on it independently of the main branch.
+
+How do I create a new branch in Git?
+Use the git branch command and specify the branch name, e.g., git branch feature1.
+
+How can I view which branch is active?
+Use git branch to view available branches and which one is active. Git typically designates the active branch with an asterisk and a different colored font.
+
+How can I switch to working on another branch?
+Use git checkout and the name of the branch to make it active.
+
+Can I create a branch inside another branch?
+Yes, specify the name of the branch to base the new branch, e.g., git branch feature-bug feature1.
+
+My branch only exists locally. How can I add my branch to my remote Git repository?
+Yes, use the git push command to set the upstream branch, e.g., git push –set-upstream origin <branch name>.
+
+How can I update the main branch with my branch’s changes?
+Switch to the main branch using the git checkout command, then merge the branch using the git merge command along with the branch name.
+
+How can I delete a branch?
+When you are done with a branch, delete it using the git branch command and the -d switch, e.g., git branch -d feature1.
+
+Closing
+Git branching is a powerful feature that allows teams to work on the code independently of each other. Knowing how to create, name, and merge branches are essential skills for any developer, systems administrator, or DevOps engineer.
+

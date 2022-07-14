@@ -1,0 +1,8 @@
+Git clone 
+--> Git clone <url>
+
+-->git remote add <originname> <url>
+stash changes ko temporary apny pas rakhta h 
+-->git stash push
+changes wpis lata h 
+-->git stash pop

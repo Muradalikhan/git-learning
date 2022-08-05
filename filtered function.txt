@@ -1,0 +1,9 @@
+  // const getFilteredList = () => {
+  //   if (!selectedCategory || selectedCategory === "all") {
+  //     return homedata;
+  //   }
+  //   return homedata.filter(
+  //     (item) => item.category.toLowerCase() === selectedCategory.toLowerCase()
+  //   );
+  // };
+  // const filteredList = useMemo(getFilteredList, [selectedCategory]);
